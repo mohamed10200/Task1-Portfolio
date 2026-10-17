@@ -1,0 +1,265 @@
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333333;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 30px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+        }
+
+        
+        .text-navy {
+            color: #1a5276;
+        }
+
+        h1.main-title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            color: #1a5276;
+            margin: 0 0 5px 0;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 16px;
+            color: #2980b9;
+            margin: 0 0 25px 0;
+        }
+
+        h2.section-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #1a5276;
+            margin: 25px 0 12px 0;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #333333;
+            margin: 0 0 12px 0;
+        }
+
+        
+        .skills-banner {
+            background-color: #004080;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 15px;
+            padding: 4px 8px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .skills-list {
+            margin: 0;
+            padding-left: 25px;
+        }
+
+        .skills-list li {
+            margin-bottom: 3px;
+        }
+
+        .skills-list a {
+            color: #0000ee;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+
+        .Company-Logo {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        }
+        .timeline-overview {
+            text-align: center;
+            font-size: 15px;
+            color: #333333;
+            margin: 15px 0 10px 0;
+        }
+
+        table.experience-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+        }
+
+        table.experience-table th, 
+        table.experience-table td {
+            border: 1px solid #888888;
+            padding: 8px 10px;
+            font-size: 14px;
+            vertical-align: middle;
+        }
+
+        table.experience-table th {
+            background-color: #00509d;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: center;
+            padding: 6px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .logo-cell {
+            text-align: center;
+            vertical-align: middle;
+            width: 80px;
+        }
+
+        .logo-box {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: bold;
+            font-style: italic;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        }
+
+        .logo-tc {
+            background: linear-gradient(135deg, #1e88e5, #1565c0);
+        }
+
+        .logo-da {
+            background: linear-gradient(135deg, #d81b60, #8e24aa);
+        }
+
+        .logo-wd {
+            background: linear-gradient(135deg, #2e7d32, #1b5e20);
+        }
+
+        .bullet-list {
+            margin: 0;
+            padding-left: 18px;
+        }
+
+        .bullet-list li {
+            margin-bottom: 2px;
+        }
+
+        .footer-row {
+            background-color: #fcfcfc;
+            font-weight: normal;
+            font-size: 14px;
+            padding: 6px 10px;
+        }
+
+        
+        fieldset.personal-info {
+            border: 1px solid #aaaaaa;
+            padding: 15px 20px 20px 20px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        legend {
+            font-size: 14px;
+            color: #333333;
+            padding: 0 4px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px 40px;
+            align-items: center;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .form-group label {
+            font-size: 14px;
+            color: #333333;
+            white-space: nowrap;
+            margin-right: 10px;
+            border-radius: 2px;
+        }
+
+        .form-group input {
+            border: 1px solid #777777;
+            padding: 3px 6px;
+            width: 170px;
+            box-sizing: border-box;
+            outline: none;
+            border-radius: 10px;
+        }
+
+        
+        .buttons-container {
+            display: flex;
+            gap: 10px;
+            margin-top: 5px;
+        }
+
+        .btn {
+            border: none;
+            color: #ffffff;
+            padding: 6px 14px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .btn-send {
+            background-color: #1a5276;
+            border-radius: 5px;
+        }
+
+        .btn-send:hover{
+            transform: scale(1.1);
+            transition: 0.7s ease;
+        }
+
+        .btn-clear {
+            background-color: #b71c1c;
+            border-radius: 5px;
+        }
+
+        .btn-clear:hover{
+            transform: scale(1.1);
+            transition: 0.7s ease;
+        }        
+
+        
+        @media (max-width: 650px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+            .form-group {
+                justify-content: space-between;
+            }
+            .form-group input {
+                width: 60%;
+            }
+            table.experience-table {
+                font-size: 12px;
+            }
+            table.experience-table th, 
+            table.experience-table td {
+                padding: 4px;
+            }
+        }
